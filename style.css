@@ -1,0 +1,78 @@
+
+body{
+    overflow: scroll;
+    /* background-position: ; */
+}
+
+.texts {
+    text-align: center;
+    border: 1px solid black;
+    color: brown;
+
+
+}
+
+h2 {
+    color: yellow;
+}
+
+.login {
+    margin: 30px auto;
+    border: 2px solid black;
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px skyblue;
+}
+
+.details {
+    margin: 10px 30px;
+    font-size: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+
+}
+
+#btn {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#link1 {
+    font-size: 13px;
+    text-decoration: underline;
+    color: blue;
+}
+
+#link1:hover {
+    color: red;
+}
+
+#link1:active {
+    color: blue;
+}
+
+
+img{
+    margin:-40px;
+}
