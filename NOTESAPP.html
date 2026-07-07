@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoteBook Application</title>
-    <link rel="stylesheet" href="style2.css">
-    <script src="note2.js"></script>
+    <title>NOTEBOOK APPLICATION</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="note1.js"></script>
 </head>
+
 <body>
-    <div class="app" onclick="display()" >
-        <h1>NOTEBOOK APPLICATION PROJECT</h1>
+    <div class="main">
+        <div class="note">
 
-    </div>
+            <h1>NOTEBOOK APPLICATION</h1>
 
-    </div>
+            <center>
+                <img src="noteimage.png" alt="note" width="40px" height="40px">
+            </center>
+            <div class="fonts">
+                <p id="col1">fontPatterns</p>
+                <p id="col2">Colors</p>
+            </div>
+
+
+        </div>
+        <div class="writing">
+            <input type="text" name="text" id="typeSomething">
+
+        </div>
+
+        <div class="footer">
+
+            <div class="buttons">
+
+                <button class="btn" onclick="Aa(b)" id="bold">B</button>
+                <button class="btn" onclick="Aa1(i)" id="italic">I</button>
+                <button class="btn" onclick="Aa2(u)" id="underline">U</button>
+
+            </div>
+
+
+            <div class="colors">
+
+                <center>
+
+
+
+                    <button class="btn1" onclick="blue(bl)" id="blue"></button>
+                    <button class="btn1" onclick="pink(p)" id="pink"></button>
+                    <button class="btn1" onclick="yellow(y)" id="yellow"></button>
+                    <button class="btn1" onclick="white(w)" id="white"></button>
+
+                    <button class="btn1" onclick="purple(pr)" id="purple"></button>
+                    <button class="btn1" onclick="violet(v)" id="violet"></button>
+                    <button class="btn1" onclick="green(g)" id="green"></button>
+                    <button class="btn1" onclick="red(r)" id="red"></button>
+                </center>
+
+
+
+
+
+            </div>
+
+        </div>
 </body>
+
 </html>
