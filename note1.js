@@ -1,38 +1,38 @@
 let b, i, u;
 function Aa(b) {
-    b=document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.fontWeight = "bold";
+    b=document.getElementById("text").value = document.getElementById("text").style.fontWeight = "bold";
 }
 function Aa1(i) {
-     i=document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.fontStyle = "italic";
+     i=document.getElementById("text").value = document.getElementById("text").style.fontStyle = "italic";
 }
 function Aa2(u) {
    
     
-     u=document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.textDecoration = "underline";}
+     u=document.getElementById("text").value = document.getElementById("text").style.textDecoration = "underline";}
      
 
      
 
 let bl, p, y, w, pr, v, g, r;
 function blue(bl) {
-      bl= document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.color = "blue";}
+      bl= document.getElementById("text").value = document.getElementById("text").style.color = "blue";}
 
 function pink(p) {
-    document.getElementById("typeSomething").value = document.getElementById("pink").style.color = "pink";
+    document.getElementById("text").value = document.getElementById("text").style.color = "pink";
 }
 function  yellow(y){
-    document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.color="yellow";
+    document.getElementById("text").value = document.getElementById("text").style.color="yellow";
 }
 function white(w){
-    document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.color="white";
+    document.getElementById("text").value = document.getElementById("text").style.color="white";
 }
 function purple(pr){
-    document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.color="purple";
+    document.getElementById("text").value = document.getElementById("text").style.color="purple";
 
 }
 function violet(v){
-    document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.color="violet";
+    document.getElementById("text").value = document.getElementById("text").style.color="violet";
 }
 function green(g){
-    document.getElementById("typeSomething").value = document.getElementById("typeSomething").style.color="green";
+    document.getElementById("text").value = document.getElementById("text").style.color="green";
 }
